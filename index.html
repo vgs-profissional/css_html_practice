@@ -5,25 +5,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portifolio</title>
+    <title> Portifolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <header></header>
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu__link" href="index.html">Início</a>
+            <a class="cabecalho__menu__link" href="about.html">Sobre mim</a>
+            <a class="cabecalho__menu__link" href="curriculo.html">Meu Curriculo</a>
+        </nav>
+    </header>
     <main class="apresentacao">
         <section class="apresentacao__conteudo">
-            <h1 class="apresentacao__conteudo__titulo">Projeto de <strong class="titulo-destaque">HTML e CSS</strong></h1>
+            <h1 class="apresentacao__conteudo__titulo">Aprendendo <strong class="titulo-destaque">CSS e HTML</strong>
+                através do curso da escola digital <strong class="titulo-destaque">Alura</strong></strong>
+            </h1>
             <p class="apresentacao__conteudo__paragrafo">Atráves do curso da Alura eu estou aprendendo HTML e CSS!</p>
             <div class="apresentacao__links">
-                <h2 class="apresentacao__links__subtitulo">Redes Sociais:</h2>
-                <a class="apresentacao__links__link" href="https://github.com/vgs-profissional">Perfil Github </a>
-                <a class="apresentacao__links__link" href="https://cursos.alura.com.br/user/pimenos1virgula14e2"> Perfil Alura</a>
+                <h2 class="apresentacao__links__subtitulo">Acesse minhas redes:</h2>
+                <a class="apresentacao__links__navegacao" href="https://github.com/vgs-profissional"> <img
+                        src="assets/github.png" alt=""> Github</a>
+                <a class="apresentacao__links__navegacao" href="https://www.twitch.tv/cyber_silvio_santos"><img
+                        src="assets/twitch.png" alt="">Twitch</a>
+                <a class="apresentacao__links__navegacao" href="https://twitter.com/viniciu27249080"><img
+                        src="assets/twitter.png" alt=""> Twitter</a>
             </div>
         </section>
-        <img src="alura-logo.png" alt="HTML icone">
+        <img class="apresentacao__imagem" src="./assets/alura-logo.png" alt="logo da Alura">
     </main>
-    <footer></footer>
+    <footer class="rodape">Desenvolvido por <strong> Vinícius Guimarães </strong></footer>
 </body>
 
 </html>
